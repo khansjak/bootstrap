@@ -1,0 +1,33 @@
+.container{
+    background-color: blue;
+    height: 200px;
+}
+.bg1{
+    background-color: aqua;
+    height: 150px;
+}
+
+.bg2{
+    background-color: antiquewhite;
+    height: 150px;
+}
+
+.bg3{
+    background-color: bisque;
+    height: 150px;
+}
+
+.bg-fluid{
+    background-color: blanchedalmond;
+    height: 200px;
+}
+.container-fluid{
+    background-color: brown;
+    height: 200px;
+}
+
+.main-form{
+    width: 600px;
+    margin: auto;
+
+}
