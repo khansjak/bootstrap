@@ -20,3 +20,5 @@ let emp2 = new Employee(102, "Cerci");
 
 emp1.getDetails();
 emp2.getDetails();
+
+

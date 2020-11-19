@@ -31,3 +31,7 @@
     margin: auto;
 
 }
+table  ,form ,iframe {border: 1px solid black;}
+th{width: 12%; border: 1px solid #ddd;}
+td{width: 12%; border: 1px solid #ddd;}
+

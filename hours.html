@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <h2>ABC LLC</h2>
+        <table>
+            <tr>
+                <th colspan="7">Hours of operation</th>
+            </tr>
+            <tr>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+            </tr>
+            <tr>
+                <td>09:00 am - 05:00 pm</td>
+                <td>09:00 am - 05:00 pm</td>
+                <td>09:00 am - 05:00 pm</td>
+                <td>09:00 am - 05:00 pm</td>
+                <td>09:00 am - 05:00 pm</td>
+                <td colspan="2">Closed</td>
+            </tr>
+            <tr>
+                <td colspan="7" style="background-color: bisque;">*Closed on Holidays</td>
+
+            </tr>
+        </table><br><br>
+        <form action="login.php" method="POST">
+            User Name : <input type="text" name="username" value="Laurel"><br>
+            Password : <input type="password" name="password"><br>
+            Gender : <br>
+            <input type="radio" name="agree" value="Male">Male <br>
+            <input type="radio" name="agree" value="Female">Female<br>
+            Do you agree to the terms and conditions ? <br>
+            <input type="checkbox" name="tc" value="yes"><br>
+
+            <input type="color"><br>
+            <input type="date"><br>
+            <input type="email"><br>
+            <input type="number" name="" id="" min="10" max="50"><br>
+            <input type="url"><br>
+            <input type="tel"><br>
+            <input type="datetime-local"><br>
+            <input type="range" min="10" max="100"><br>
+            <input type="file"><br>
+
+            What you want to do today ?<br>
+            <select name="subject" id="subject"><br>
+                <option value="sell">Sell something</option>
+                <option value="buy">Buy something</option>
+                <option value="rent">Rent out a car</option>
+                <option value="home">Buy Home Appliances</option>
+            </select><br>
+
+            <textarea name="" id="" cols="30" rows="10">Add Description here </textarea><br>
+            <input type="submit" value="Login">
+           <button>Click Me</button>
+        </form>
+    </body>
+
+</html>
